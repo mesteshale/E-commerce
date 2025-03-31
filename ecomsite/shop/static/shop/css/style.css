@@ -1,0 +1,119 @@
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.price {
+    color: #28a745;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.discount-price {
+    color: #dc3545;
+    text-decoration: line-through;
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+.category-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.navbar {
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.pagination {
+    margin: 30px 0;
+}
+
+.pagination .page-link {
+    color: #333;
+    padding: 8px 16px;
+    margin: 0 4px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.pagination .page-link:hover {
+    background-color: #f8f9fa;
+    border-color: #ddd;
+    color: #0056b3;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    background-color: #fff;
+    border-color: #ddd;
+}
+
+.current-page-info {
+    padding: 8px 16px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    margin: 0 10px;
+    color: #6c757d;
+}
+
+.card-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.btn-detail {
+    background-color: #737d6c;
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-detail:hover {
+    background-color: #5a6268;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.btn-cart {
+    background-color: #007bff;
+    color: rgb(255, 255, 255);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-cart:hover {
+    background-color: #0056b3;
+    color: white;
+    transform: translateY(-2px);
+}
